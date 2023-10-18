@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif !important;
+}
+body{
+    background-color: black;
+    font-family: sans-serif !important;
+}
+.navbar{
+    background-color: black !important;
+    border-bottom: solid rgb(27, 27, 27) 2px;
+}
+.nav-link{
+    color: white;
+    transition: color 0.3s ease;
+}
+.nav-link:hover{
+    color: rgb(209, 212, 32);
+    border-bottom: solid 1px rgb(156, 158, 38);
+    /* border-radius: 50px; */
+    transition: all 0.3s ease;
+}
+.about{
+    border-top: solid 2px rgb(27, 27, 27);
+    margin-top: 8vh;
+    color: rgb(209, 212, 32);
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    border-bottom: solid 2px rgb(27, 27, 27);
+}
+.card{
+    margin-top: 5vh;
+    background-color: black;
+}
+.card-img{
+    border-left: solid 1px rgb(209, 212, 32) !important;
+    margin-left: 65%;
+    background-color: black !important;
+    height: 450px;
+    width: 450px;
+}
+.text-color{
+    color: rgb(209, 212, 32);
+}
+.linkedin{
+    border: solid 1px black;
+    border-radius: 50px;
+    color: rgb(34, 34, 34);
+    background-color: rgb(209, 212, 32);
+    padding: 12px 12px 12px 12px;
+    margin-top: 2vh;
+    transition: color border 0.3s ease-in;
+}
+.linkedin:hover{
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+    transition: all 0.3s ease;
+}
+.skills{
+    color: rgb(209, 212, 32);
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+    border-bottom: solid 2px rgb(27, 27, 27);
+}
+.skill{
+    color: white;
+    padding-top: 5vh;
+}
+.skill-spacer{
+    border-top: solid 2px rgb(27, 27, 27);
+    color: rgb(209, 212, 32);
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    border-bottom: solid 2px rgb(27, 27, 27);
+    margin-top: 33vh;
+}
+.skill-text{
+    color: white;
+}
+.progress-bar {
+    width: 0;
+    background-color: rgb(209, 212, 32);
+    color: #000000;
+    text-align: center;
+    transition: width 3s ease-in-out; 
+}
+
+.progress-bar-container {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}   
+
+.projects-spacer{
+    color: rgb(209, 212, 32);
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    border-bottom: solid 2px rgb(27, 27, 27);
+}
+.projectscard{
+    border: solid 1px white !important;
+    transition: box-shadow 0.3s ease !important; 
+}
+.projectscard:hover{
+    border: solid 1px white !important;
+    box-shadow: 0px 5px 15px rgb(209, 212, 32) !important;
+    transition: box-shadow 0.3s ease !important; 
+}
+
+#resume{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.resume-spacer{
+    padding-bottom: 3vh;
+    border-bottom: solid 2px rgb(27, 27, 27);
+    color: rgb(209, 212, 32);
+}
+
+.pdf-download{
+    text-decoration: none;
+    border: solid 1px black;
+    border-radius: 50px;
+    color: rgb(34, 34, 34);
+    background-color: rgb(209, 212, 32);
+    padding: 12px 12px 12px 12px;
+    margin-top: 2vh;
+    transition: color border 0.3s ease-in;
+}
+.pdf-download a{
+    color: black;
+    transition: color border 0.3s ease-in;
+}
+.pdf-download:hover{
+    background-color: black;
+    color: white;
+    border-bottom: solid 1px rgb(209, 212, 32);
+    border-top: solid 1px rgb(209, 212, 32);
+    border-radius: 0px;
+    transition: all 0.3s ease;
+}
+.pdf-download:hover a{
+    color: white;
+    transition: all 0.3s ease;
+}
+.contacts{
+    display: flex; 
+    color: white;
+    margin-top: 5vh;
+}
+.contact-spacer{
+    border-top: solid 2px rgb(27, 27, 27);
+    color: rgb(209, 212, 32);
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    border-bottom: solid 2px rgb(27, 27, 27);
+    margin-top: 10vh;
+}
+.form{
+    box-shadow:5px 15px 15px rgba(209, 212, 32, 0.301);
+    background-color: rgb(255, 255, 255);
+    margin-right: 10vh;
+    height: 75vh;
+    width: 100%;
+    padding-top: 7vh;
+}
+.Send-message{
+    color: black;
+    text-align: center;
+    padding-bottom: 3vh;
+}
+.back-shadow{
+    margin-left: 15vh;
+    height: 6vh;
+    padding-left: 1vh;
+}
+.message{
+    height: 15vh;
+}
+.form-btn-1{
+    margin-left: 15vh;
+}
+.form-btn{
+    color: white;
+    text-decoration: none;
+    border: solid 1px white;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    padding: 12px 12px 12px 12px;
+    margin-top: 2vh;
+    transition: color border 0.3s ease-in;
+}
+.form-btn:hover{
+    box-shadow: 5px 15px 15px rgb(44, 43, 43);
+    background-color: black;
+    border-radius:10px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.border-top{
+    border-top:solid 1px rgb(27, 27, 27) !important;
+}
+
+.golden{
+    background: transparent;
+    transition: all 0.3s ease;
+    border: none;
+}
+.golden:hover{
+    box-shadow: 5px 15px 15px rgb(209, 212, 32);
+}
+
+.icons-text{
+    padding-top: 9px;
+}
+
+.back-to-top {
+    opacity: 30%;
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 999;
+  }
+  .back-to-top:hover{
+    opacity: 100%;
+    background-color: rgba(255, 255, 255, 0.425);
+  } 
